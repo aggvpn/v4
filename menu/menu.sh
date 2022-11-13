@@ -70,15 +70,9 @@ echo -e "\e[33m                                                            \e[0m
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "	BISMILLAH..."
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "╱╱╭┳━━┳━━━┳╮╱╱╭┳━━━┳━╮╱╭╮ "
-echo -e "╱╱┃┣┫┣┫╭━━┫╰╮╭╯┃╭━╮┃┃╰╮┃┃ "
-echo -e "╱╱┃┃┃┃┃╰━━╋╮┃┃╭┫╰━╯┃╭╮╰╯┃ "
-echo -e "╭╮┃┃┃┃┃╭━━╯┃╰╯┃┃╭━━┫┃╰╮┃┃ "
-echo -e "┃╰╯┣┫┣┫╰━━╮╰╮╭╯┃┃╱╱┃┃╱┃┃┃ "
-echo -e "╰━━┻━━┻━━━╯╱╰╯╱╰╯╱╱╰╯╱╰━╯ "
-echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "                                                                                         "
-echo -e "\e[33m Operating System     \e[0m:  "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`	
+figlet VPN PREMIUM | lolcat
+echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"                                                                                        
+echo -e "\e[33m 🖥️Operating System     \e[0m:  "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`	
 echo -e "\e[33m 🖥️Total Amount Of RAM  \e[0m:  $tram MB"
 echo -e "\e[33m 🖥️System Uptime        \e[0m:  $uptime "
 echo -e "\e[33m 🖥️Isp Name             \e[0m:  $ISP"
